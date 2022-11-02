@@ -254,7 +254,7 @@ ul {
 
 .link.footer {
   display: block;
-  margin-top: 9px;
+  padding-top: 9px;
   font-weight: 400;
 
   color: var(--address-color);
