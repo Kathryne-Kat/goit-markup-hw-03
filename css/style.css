@@ -6,6 +6,7 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --address-color: rgba(255, 255, 255, 0.6);
+  --border-color: #eeeeee;
 }
 body {
   color: var(--primary-text-color);
@@ -292,9 +293,6 @@ ul {
   justify-content: center;
   margin-bottom: 50px;
 }
-.element-portfolio {
-  flex-basis: calc((100% - 60px) / 3);
-}
 
 .portfolio-button {
   padding: 6px 22px;
@@ -322,17 +320,18 @@ ul {
   flex-wrap: wrap;
   gap: 30px;
 }
-
+.element-portfolio {
+  flex-basis: calc((100% - 60px) / 3);
+}
 .border-portfolio {
   padding: 20px 24px;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+  border: 1px solid var(--border-color);
+  border-top: none;
 }
 
 .portfolio-title {
   margin-bottom: 4px;
-  color: #212121;
+  color: var(--title-text-color);
 
   font-family: inherit;
   font-weight: 700;
@@ -342,7 +341,6 @@ ul {
 }
 
 .portfolio-list p {
-  margin: 0;
   color: var(--primary-text-color);
 
   font-family: inherit;
