@@ -50,6 +50,8 @@ ul {
 }
 
 .logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: var(--accent-text-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -64,11 +66,13 @@ ul {
 .logo:focus {
   border-bottom: 2px solid var(--accent-text-color);
 }
+.navigation {
+  margin-left: 93px;
+}
 .site-nav {
   display: flex;
   justify-content: flex-start;
   gap: 50px;
-  padding-left: 93px;
 }
 
 .site-nav .link {
@@ -250,36 +254,34 @@ ul {
 }
 .logo.footer {
   display: inline-block;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 .logo .accent {
   color: var(--primary-color);
 }
-.contacts-footer > li:not(:last-child) {
+.address-nav {
+  margin-top: 20px;
+}
+.contacts.footer > li:not(:last-child) {
   margin-bottom: 9px;
+}
+.contacts.footer > li:not(:first-child) {
+  display: block;
+
+  color: var(--address-color);
+
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.7;
 }
 
 .address {
-  display: block;
-  margin-top: 20px;
   color: var(--primary-color);
   text-decoration: none;
   font-style: normal;
   line-height: 1.7;
-}
-
-.e-mail,
-.tel {
-  display: block;
-  text-decoration: none;
-
-  font-weight: 400;
-
-  color: var(--address-color);
-
-  font-style: normal;
-  line-height: 1.7;
-}
-.link.tel {
 }
 
 /*-----pjrtfolio-----*/
