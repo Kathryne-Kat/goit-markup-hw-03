@@ -189,7 +189,7 @@ ul {
 }
 
 .section-title.invisible {
-  display: none;
+  font-size: 0;
 }
 .feature-list .title {
   margin-bottom: 8px;
@@ -286,7 +286,7 @@ ul {
 
 /*-----pjrtfolio-----*/
 .portfolio-title.invisible {
-  display: none;
+  font-size: 0;
 }
 .portfolio-nav {
   display: flex;
